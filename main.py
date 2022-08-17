@@ -55,7 +55,6 @@ sidebar = html.Div(
     ],
     style=SIDEBAR_STYLE,
 )
-
 content = html.Div(id="page-content", children=[], style=CONTENT_STYLE)
 
 app.layout = html.Div([
